@@ -1,0 +1,28 @@
+.team{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    .team-title{
+text-align: center;
+    }
+    .card-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        .card{
+            .image{
+                width: 300px;
+                img{
+                width: 300px;
+                }
+                
+            }
+
+        }
+    }
+}

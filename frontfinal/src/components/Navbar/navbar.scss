@@ -1,0 +1,32 @@
+.navbar {
+    position: absolute;
+    z-index: 9999;
+    width: 100%;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+    background-color: transparent;
+    padding: 35px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    .left-nav {
+        display: flex;
+        font-size: 32px;
+    }
+
+    .right-nav ul {
+        display: flex;
+        gap: 30px;
+        font-size: 16px;
+        li{
+            list-style-type: none;
+            a{
+                text-decoration: none;
+        color: white;
+
+            }
+        }
+    }
+}
